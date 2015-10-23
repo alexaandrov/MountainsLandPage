@@ -1,0 +1,269 @@
+body {
+	padding: 0;
+	margin: 0 auto;
+	background-color: #eee9ee;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 24px;
+	margin: 10px 0px 40px;
+}
+
+h2 {
+	padding: 0;
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 22px;
+}
+
+
+.tilda {
+	font-family: Arial;
+	color: #afacaf;
+	text-align: center;
+}
+
+.tilda2 {
+	margin: 0 auto;
+	font-family: Arial;
+	color: #afacaf;
+}
+
+
+@media (max-width: 600px) {
+	.header-inner > ul {
+		display: none;
+	}
+	.right-sidebar {
+		display: none;
+	}
+}
+
+.header {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	margin-bottom: 0px;
+}
+
+.header > .header-inner {
+	background-color: white;
+	margin: 0 auto;
+}
+
+.header-inner > ul {
+	max-width: 960px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.header-inner > ul > li {
+	display: inline-block;
+}
+
+
+
+.header-inner > ul > li > a {
+	padding: 30px 20px;
+	margin: 0 auto;
+	color: black;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.wrapper {
+	padding-top: 0px;
+	width: 1920px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.wrapper > .content-wrapper {
+	border-radius: 3px;
+	min-height: calc(100vh - 80px);
+	background: white;
+	float: left;
+	
+}
+
+.header-inner > ul > li > a:hover {
+	background: #eee9ee;
+}
+
+.content-wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.content-block {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.top-photo {
+	background-image: url(../img/top-photo.jpg);
+	height: 500px;
+}
+
+.content-block > .top-border {
+	position: absolute;
+	width: 400px;
+	padding: 0px 140px;
+	margin-top: 205px;
+	color: #cfcfcf;
+	font-family: Arial;
+	font-size: 17px;
+}
+
+.top-photo a.button {
+	position: absolute;
+	color: #fff;
+	text-decoration: none;
+	user-select: none;
+	background: #36aeea;
+	padding: .7em 4.5em;
+	outline: none;
+	border-radius: 3px;
+	margin: 300px 140px;
+	font-size: 15px;
+}
+
+.top-photo a.button:hover {
+	background-color: #7acff9;
+}
+
+.top-photo a.button:active {
+	background-color: #095175;
+}
+
+
+.about-block {
+	margin: 0 auto;
+	background-image: url(../img/about.jpg);
+	height: 500px;
+}
+
+.about-block .content-block > h3, p {
+}
+
+.about-block img {
+	height: 300px;
+	width: 300px;
+	float: right;
+}
+
+.our-journal {
+	height: 650px;
+}
+
+.our-journal > .content-block {
+}
+
+.our-journal > .content-block  > img{
+	width: 800px;
+}
+
+.search-block {
+	background-image: url(../img/search-block.jpg);
+	height: 500px;
+}
+
+.how-we-work {
+	height: 500px;
+}
+
+.how-we-workd > .content-block {
+}
+
+.how-we-workd > .content-block > img {
+	width: 800px;
+	height: 400px;
+}
+
+.travel {
+	background-image: url(../img/clients-block.jpg);
+	height: 1000px;
+	
+}
+
+.gallery {
+	height: 500px;
+}
+
+.gallery > content-block {
+
+}
+
+.gallery > content-block > img {
+	
+
+}
+
+.clients {
+	background-image: url(../img/under-block.jpg);
+	height: 1000px;
+	
+}
+
+.clients > content-block {
+	
+
+}
+
+.clients > content-block > img {
+	
+
+}
+
+.content-block  > .photo > img {
+	border-radius: 3px;
+	width: 600px;
+	height: 400px;
+}
+
+
+
+
+.footer {
+	margin-top: 0px;
+	float: left;
+	width: 100%;
+	background-color: #152c4b;
+	height: 50px;
+	color: #bcd9ff;
+
+}
+
+.footer .left {
+	width: 25%;
+	background: black;
+	float: left;
+}
+
+.footer .main {
+	width: 50%;
+	background: white;
+	float: left;
+}
+
+.footer .right {
+	width: 25%;
+	background: blue;
+	float: left;
+}
+
+.footer .content-block {
+	margin-top: 18px;
+}
