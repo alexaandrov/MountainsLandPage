@@ -23,6 +23,11 @@ h2 {
 	font-size: 22px;
 }
 
+h3 {
+	padding: 0;
+	margin: 0 auto;
+}
+
 
 .tilda {
 	font-family: Arial;
@@ -37,7 +42,7 @@ h2 {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 	.header-inner > ul {
 		display: none;
 	}
@@ -51,11 +56,13 @@ h2 {
 	width: 100%;
 	padding: 0px;
 	margin: 0 auto;
-	margin-bottom: 0px;
+	margin-bottom: -100px;
+	position: absolute;
 }
 
 .header > .header-inner {
 	background-color: white;
+	opacity: 0.6;
 	margin: 0 auto;
 }
 
@@ -74,16 +81,21 @@ h2 {
 
 .header-inner > ul > li > a {
 	padding: 30px 20px;
-	margin: 0 auto;
 	color: black;
 	font-weight: bold;
 	display: table-cell;
-	vertical-align: middle;
+}
+
+.header-inner > ul > li > a:hover {
+	
+	background: #8cf9ff;
+	border-radius: 3px;
 }
 
 .wrapper {
 	padding-top: 0px;
-	width: 1920px;
+	width: 100%;
+	max-width: 1920px;
 	height: 100%;
 	margin: 0 auto;
 }
@@ -96,12 +108,9 @@ h2 {
 	
 }
 
-.header-inner > ul > li > a:hover {
-	background: #eee9ee;
-}
-
 .content-wrapper {
 	width: 100%;
+	max-width: 1920px;
 	margin: 0 auto;
 }
 
@@ -113,14 +122,20 @@ h2 {
 }
 
 .top-photo {
-	background-image: url(../img/top-photo.jpg);
+	background-image: url(../img/top-photo2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    min-width: 1200px;
 	height: 500px;
 }
 
 .content-block > .top-border {
 	position: absolute;
-	width: 400px;
-	padding: 0px 140px;
+	width: 380px;
+	padding: 0px 70px;
 	margin-top: 205px;
 	color: #cfcfcf;
 	font-family: Arial;
@@ -136,7 +151,7 @@ h2 {
 	padding: .7em 4.5em;
 	outline: none;
 	border-radius: 3px;
-	margin: 300px 140px;
+	margin: 300px 70px;
 	font-size: 15px;
 }
 
@@ -155,13 +170,25 @@ h2 {
 	height: 500px;
 }
 
-.about-block .content-block > h3, p {
+.about > h2 {
+	margin-top: 150px;
 }
 
-.about-block img {
-	height: 300px;
+.about > p {
+	width: 350px;
+}
+
+.about > .img1 > img {
+	height: 250px;
 	width: 300px;
-	float: right;
+	margin: -50px 0 100px 350px;
+}
+
+.about > .img2 > img {
+	height: 550px;
+	width: 800px;
+	margin: -500px 0px 0px 700px;
+	position: absolute;
 }
 
 .our-journal {
@@ -212,7 +239,7 @@ h2 {
 }
 
 .clients {
-	background-image: url(../img/under-block.jpg);
+	background-image: url(../img/under-block2.jpg);
 	height: 1000px;
 	
 }
@@ -243,24 +270,21 @@ h2 {
 	background-color: #152c4b;
 	height: 50px;
 	color: #bcd9ff;
-
+	text-align: center;
 }
 
 .footer .left {
 	width: 25%;
-	background: black;
 	float: left;
 }
 
 .footer .main {
 	width: 50%;
-	background: white;
 	float: left;
 }
 
 .footer .right {
 	width: 25%;
-	background: blue;
 	float: left;
 }
 
