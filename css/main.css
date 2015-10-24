@@ -711,6 +711,7 @@ input[type="text"] {
 }
 
 .clients {
+	position: static;
 	background-image: url(../img/under-block.jpg);
 	background-size: 100% 1000px;
 	height: 1000px;
@@ -737,26 +738,25 @@ input[type="text"] {
 
 
 .footer {
-	position: in;
-	float: inherit;
-	margin-top: 0px;
+	position: relative;
+	
+	margin-top: -50px;
 	float: left;
 	width: 100%;
 	background-color: #152c4b;
-	height: 50px;
 	color: #bcd9ff;
 	text-align: center;
-	opacity: 0.3;
+	opacity: 0.8;
 }
 
 .footer .left {
+	margin-top: 15px;
 	width: 25%;
 	float: left;
 }
 
 .footer p {
 	margin: 0;
-	opacity: 0.4;
 }
 
 .footer .main {
@@ -765,10 +765,32 @@ input[type="text"] {
 }
 
 .footer .right {
+	margin-top: 15px;
 	width: 25%;
 	float: left;
 }
 
+.main > ul > li {
+	display: inline-block;
+	margin-left: 40px;
+	opacity: 0.4;
+}
+
+.main > ul > li:hover {
+	opacity: 1;
+}
+
+.main > ul > li:active {
+	opacity: 0.1;
+}
+
+.main > ul > li > a {
+	position: absolute;
+	display: inline-block;
+	margin-top: -25px;
+}
+
 .footer .content-block {
-	margin-top: 18px;
+	margin: 0 auto;
+	padding: 0;
 }
