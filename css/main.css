@@ -44,6 +44,11 @@ h5 {
 	color: #36aeea;
 }
 
+.subtext {
+	color: #848484;
+}
+
+
 .tilda {
 	margin-top: 50px;
 	margin-bottom: 10px;
@@ -279,6 +284,7 @@ h5 {
 p .text {
 	margin: 0 20px;
 	color: white;
+	text-align: center;
 }
 
 .jr-menu > .m2, .m4, .m6 {
@@ -386,7 +392,13 @@ p .text {
 	width: 750px;
 	margin-top: 30px;
 }
-
+.form p {
+	margin-top: -40px;
+	margin-left: 307px;
+	font-size: 30px;
+	color: #d2d2d2;
+	position: absolute;
+}
 input[type="submit"] {
 	position: absolute;
 	color: #fff;
@@ -436,27 +448,84 @@ input[type="text"] {
 }
 
 .how-we-work {
-
 	height: 500px;
 }
 
 .how-we-work > .content-block {
 }
 
-.bf {
-	background-image: url(../1.png);
-	margin-top: 0px;
-	background-position: center;
-	height: 500px;
+.hw-menu > *{
+	float: left;
+}
+
+.hw-menu > .hw2, .hw3, .hw4 {
+	margin-left: 63px;
+}
+
+.hw1 {
+	background-image: url(../img/how-work/1.png);
+	height: 173px;
+	width: 173px;
+	margin-left: 40px;
+}
+
+.hw2 {
+	background-image: url(../img/how-work/2.png);
+	height: 173px;
+	width: 173px;
+}
+
+.hw3 {
+	background-image: url(../img/how-work/3.png);
+	height: 173px;
+	width: 173px;
+}
+
+.hw4 {
+	background-image: url(../img/how-work/4.png);
+	height: 173px;
+	width: 173px;
+}
+
+.hw-menu .text {
+	margin-top: 5px;
+	color: #848484;
+	font-size: 15px;
+	font-family: Arial;
+}
+.hw-menu {
+	text-align: center;
+}
+
+.hw-menu > .txt2, .txt3, .txt4 {
+	width: 210px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.txt1 {
+	width: 210px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.hw-head {
+	margin-top: -20px;
+	margin-left: 30px;
+}
+
+.hw-head img {
+	width: 100%;
 }
 
 
 .travel {
-	background-image: url(../img/clients-block.jpg);
+	background-image: url(../img/travel-block.jpg);
 	background-size: 100% 1000px;
 	height: 1000px;
 	
 }
+
 
 .gallery {
 	height: 500px;
@@ -472,7 +541,7 @@ input[type="text"] {
 }
 
 .clients {
-	background-image: url(../img/under-block2.jpg);
+	background-image: url(../img/under-block.jpg);
 	background-size: 100% 1000px;
 	height: 1000px;
 	
