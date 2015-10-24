@@ -28,6 +28,16 @@ h3 {
 	margin: 0 auto;
 }
 
+h4 {
+	font-family: 'Сomic Sans MS';
+	font-size: 18px;
+	margin: 0px 28px;
+}
+
+h5 {
+	font-family: 'Сomic Sans MS';
+	color: #36aeea;
+}
 
 .tilda {
 	font-family: Arial;
@@ -115,12 +125,8 @@ h3 {
 }
 
 .content-wrapper > section {
-	background-size: 100% 500px;
     background-repeat: no-repeat;
     min-width: 1200px;
-    -webkit-background-size: 100% 500px;
-    -moz-background-size: 100% 500px;
-    -o-background-size: 100% 500px;
 }
 
 .content-block {
@@ -131,7 +137,9 @@ h3 {
 }
 
 .top-photo {
+	position: inherit;
 	background-image: url(../img/top-photo2.jpg);
+	background-size: 100% 500px;
 	height: 500px;
 }
 
@@ -170,6 +178,7 @@ h3 {
 .about-block {
 	margin: 0 auto;
 	background-image: url(../img/about.jpg);
+	background-size: 100% 500px;
 	height: 500px;
 }
 
@@ -220,10 +229,45 @@ h3 {
 
 .our-journal {
 	height: 650px;
+	margin-bottom: 50px;
 }
 
 .our-journal > .content-block {
 }
+
+.jr-menu {
+}
+
+.jr-menu  > * {
+	float: left;
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	background-position: center;
+}
+
+p .text {
+	margin: 0 20px;
+	color: white;
+}
+
+.jr-menu > .m2, .m4, .m6 {
+	text-align: center;
+}
+
+.jr-menu > .m1 {
+	background-image: url(../img/jr-menu/1.jpg);
+}
+
+.jr-menu > .m3 {
+	background-image: url(../img/jr-menu/3.jpg);
+}
+
+.jr-menu > .m5 {
+	background-image: url(../img/jr-menu/5.jpg);
+}
+
+
 
 .our-journal > .content-block  > img{
 	width: 800px;
@@ -231,23 +275,29 @@ h3 {
 
 .search-block {
 	background-image: url(../img/search-block.jpg);
+	background-size: 100% 500px;
 	height: 500px;
 }
 
 .how-we-work {
+
 	height: 500px;
 }
 
-.how-we-workd > .content-block {
+.how-we-work > .content-block {
 }
 
-.how-we-workd > .content-block > img {
-	width: 800px;
-	height: 400px;
+.bf {
+	background-image: url(../1.png);
+	margin-top: 0px;
+	background-position: center;
+	height: 500px;
 }
+
 
 .travel {
 	background-image: url(../img/clients-block.jpg);
+	background-size: 100% 1000px;
 	height: 1000px;
 	
 }
@@ -267,6 +317,7 @@ h3 {
 
 .clients {
 	background-image: url(../img/under-block2.jpg);
+	background-size: 100% 1000px;
 	height: 1000px;
 	
 }
