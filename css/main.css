@@ -114,6 +114,15 @@ h3 {
 	margin: 0 auto;
 }
 
+.content-wrapper > section {
+	background-size: 100% 500px;
+    background-repeat: no-repeat;
+    min-width: 1200px;
+    -webkit-background-size: 100% 500px;
+    -moz-background-size: 100% 500px;
+    -o-background-size: 100% 500px;
+}
+
 .content-block {
 	width: 100%;
 	max-width: 960px;
@@ -123,12 +132,6 @@ h3 {
 
 .top-photo {
 	background-image: url(../img/top-photo2.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 100% 500px;
-    background-repeat: no-repeat;
-    min-width: 1200px;
 	height: 500px;
 }
 
@@ -176,19 +179,43 @@ h3 {
 
 .about > p {
 	width: 350px;
+	position: absolute;
+	color: #5a5a5a;
+}
+
+.about > a.button {
+	position: absolute;
+	color: #fff;
+	text-decoration: none;
+	user-select: none;
+	background: #36aeea;
+	padding: .7em 2.5em;
+	outline: none;
+	border-radius: 3px;
+	margin: 150px 0px;
+	font-size: 15px;
+}
+
+.about a.button:hover {
+	background-color: #7acff9;
+}
+
+.about a.button:active {
+	background-color: #095175;
 }
 
 .about > .img1 > img {
 	height: 250px;
 	width: 300px;
-	margin: -50px 0 100px 350px;
+	margin: 30px 0 150px 480px;
+	position: absolute;
 }
 
 .about > .img2 > img {
-	height: 550px;
-	width: 800px;
-	margin: -500px 0px 0px 700px;
-	position: absolute;
+	height: 450px;
+	width: 600px;
+	margin: -250px 0px 0px 620px;
+	position: inherit;
 }
 
 .our-journal {
