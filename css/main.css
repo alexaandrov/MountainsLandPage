@@ -226,7 +226,7 @@ h6 {
 
 .about-block {
 	margin: 0 auto;
-	background-image: url(../img/about.jpg);
+	background-image: url(../img/about/about.jpg);
 	background-size: 100% 500px;
 	height: 500px;
 }
@@ -531,7 +531,7 @@ input[type="text"] {
 
 
 .travel {
-	background-image: url(../img/travel-block/travel-block2.jpg);
+	background-image: url(../img/travel/travel-block2.jpg);
 	background-size: 100% 900px;
 	height: 900px;
 }
@@ -551,22 +551,22 @@ input[type="text"] {
 }
 
 .bar1 {
-	background-image: url(../img/travel-block/bar1.jpg);
+	background-image: url(../img/travel/bar1.jpg);
 }
 
 .bar2 {
-	background-image: url(../img/travel-block/bar2.jpg);
+	background-image: url(../img/travel/bar2.jpg);
 }
 .bar3 {
-	background-image: url(../img/travel-block/bar3.jpg);
+	background-image: url(../img/travel/bar3.jpg);
 }
 
 .bar4 {
-	background-image: url(../img/travel-block/bar4.jpg);
+	background-image: url(../img/travel/bar4.jpg);
 }
 
 .bar5 {
-	background-image: url(../img/travel-block/bar5.jpg);
+	background-image: url(../img/travel/bar5.jpg);
 }
 
 .bars .middle p {
@@ -710,9 +710,9 @@ input[type="text"] {
 	opacity: 0.1;
 }
 
-.clients {
+.contact {
 	position: static;
-	background-image: url(../img/under-block.jpg);
+	background-image: url(../img/contact-block.jpg);
 	background-size: 100% 1000px;
 	height: 1000px;
 	
