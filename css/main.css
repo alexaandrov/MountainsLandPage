@@ -690,17 +690,18 @@ input[type="text"] {
 	margin-right: 30px;
 }
 
-.partners > ul {
-	list-style-type: none;
-	display: inline;
-}
-
 .partners > ul > li {
 	float: left;
-	margin: 100px 29px;
+	margin: 100px 25px;
 	display: inline-block;
 	opacity: 0.3;
 }
+
+.partners > ul > li > a {
+	float: left;
+	display: table-cell;
+}
+
 
 .partners > ul > li:hover {
 	opacity: 1;
@@ -711,35 +712,102 @@ input[type="text"] {
 }
 
 .contact {
-	position: static;
-	background-image: url(../img/contact-block.jpg);
+	background-image: url(../img/contact-block2.jpg);
 	background-size: 100% 1000px;
 	height: 1000px;
-	
 }
 
-.clients > content-block {
-	
-
+.contact .tilda {
+	margin-top: 0px;
 }
 
-.clients > content-block > img {
-	
-
+.contact-h {
+	margin: 0px;
+	padding: 0px;
 }
 
-.content-block  > .photo > img {
-	border-radius: 3px;
-	width: 600px;
-	height: 400px;
+.comments {
+	margin-top: 40px;
 }
 
+.comments .block1, .block2 {
+	background: white;
+	padding: 20px;
+	padding-bottom: 0px;
+	border-radius: 10px;
+	float: left;
+	width: 42%;
+}
+
+.comments .block1 {
+	margin-right: 2%;
+}
+
+.comments .block2 {
+	margin-left: 2%;
+}
+
+.comments .text {
+	color: #777777;
+	font-family: 'Comic Sans MS';
+	font-size: 15px;
+}
+
+.comments .lower > ul { 
+	list-style-type: none;
+	display: inline-block;
+}
+
+.comments .lower > ul >li { 
+	float: left;
+	display: table-row;
+}
+
+.comments .name {
+	margin-left: 25px;
+	padding: 0px;
+	font-family: 'Arial';
+	font-weight: bold;
+	color: #34afe8;
+}
+
+.comments .prof {
+	margin: 0px;
+	margin-top: 2px;
+	margin-left: -15px;
+	padding: 0px;
+	font-family: 'Sans';
+	font-size: 15px;
+	color: #7bcaf2;
+}
+
+.comments .contact-avatar1 {
+	background: url(../img/avatar1.png) no-repeat;	
+	width: 64px;
+	height: 64px;
+	display: block;
+	background-size: 64px;
+	background-position: center;
+	margin-top: -20px;
+	margin-left: -40px;
+	position: relative;
+}
+
+.comments .contact-avatar2 {
+	background: url(../img/avatar2.png) no-repeat;	
+	width: 64px;
+	height: 64px;
+	display: block;
+	background-size: 64px;
+	background-position: center;
+	margin-top: -20px;
+	margin-left: -40px;
+	position: relative;
+}
 
 
 
 .footer {
-	position: relative;
-	
 	margin-top: -50px;
 	float: left;
 	width: 100%;
@@ -760,6 +828,7 @@ input[type="text"] {
 }
 
 .footer .main {
+	margin-left: -50px;
 	width: 50%;
 	float: left;
 }
