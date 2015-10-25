@@ -5,6 +5,17 @@ body {
 	height: 100%;
 }
 
+
+@font-face {
+    font-family: 'Android KG'; /* Гарнитура шрифта */
+    src: url(../fonts/an.ttf); /* Путь к файлу со шрифтом */
+ }
+
+@font-face {
+	font-family: 'ICE'; /* Гарнитура шрифта */
+    src: url(../fonts/ap.ttf); /* Путь к файлу со шрифтом */
+}
+
 a {
 	text-decoration: none;
 }
@@ -15,16 +26,16 @@ img {
 
 h1 {
 	text-align: center;
-	font-family: Arial;
+	font-family: 'Android KG', 'Arial';
 	font-size: 24px;
 	margin: 10px 0px 40px;
 }
 
 h2 {
 	
-	font-family: Arial;
-	font-size: 22px;
-	padding-top: 20px;
+	font-family: 'Android KG', 'Arial';
+	font-size: 20px;
+	padding-top: 5px;
 	margin: 0 auto;
 }
 
@@ -56,6 +67,8 @@ h6 {
 }
 
 .subtext {
+	font-family: sans-serif;
+	font-size: 15px;
 	color: #848484;
 }
 
@@ -63,16 +76,16 @@ h6 {
 .tilda {
 	margin-top: 50px;
 	margin-bottom: 10px;
-	font-family: 'Arial';
+	font-family: 'Comic Sans MS';
 	color: #afacaf;
 	text-align: center;
 }
 
 .tilda2 {
-	padding-top: 150px;
+	padding-top: 180px;
 	position: inherit;
 	margin: 0 auto;
-	font-family: 'Arial';
+	font-family: 'Comic Sans MS';
 	color: #afacaf;
 }
 
@@ -212,7 +225,8 @@ h6 {
 	outline: none;
 	border-radius: 3px;
 	margin: 300px 30px;
-	font-size: 15px;
+	font-size: 20px;
+	font-family: 'Android KG', Arial;
 }
 
 .top-photo a.button:hover {
@@ -235,7 +249,12 @@ h6 {
 .about > p {
 	width: 350px;
 	position: absolute;
+}
+
+.about .text {
+	font-family: sans-serif;
 	color: #5a5a5a;
+	font-size: 15px;
 }
 
 .about > a.button {
@@ -249,6 +268,8 @@ h6 {
 	border-radius: 3px;
 	margin: 150px 0px;
 	font-size: 15px;
+	font-weight: bold;
+	font-family: Arial;
 }
 
 .about a.button:hover {
@@ -403,10 +424,10 @@ p .text {
 	width: 750px;
 	margin-top: 30px;
 }
-.form p {
-	margin-top: -40px;
-	margin-left: 307px;
-	font-size: 30px;
+.slash {
+	margin-top: 5px;
+	margin-left: 330px;
+	font-size: 35px;
 	color: #d2d2d2;
 	position: absolute;
 }
@@ -464,7 +485,7 @@ p .text {
 }
 
 .tilda3 {
-	font-family: 'Arial';
+	font-family: 'Comic Sans MS';
 	color: #afacaf;
 	padding-top: 50px;
 }
@@ -776,19 +797,19 @@ p .text {
 }
 
 .comments .name {
-	margin-left: 25px;
+	margin-left: 20px;
 	padding: 0px;
-	font-family: 'Arial';
-	font-weight: bold;
+	font-family: 'ICE', 'Arial';
+	font-size: 25px;
 	color: #34afe8;
 }
 
 .comments .prof {
 	margin: 0px;
-	margin-top: 2px;
+	margin-top: 4px;
 	margin-left: -15px;
 	padding: 0px;
-	font-family: 'Sans';
+	font-family: 'Arial';
 	font-size: 15px;
 	color: #7bcaf2;
 }
@@ -853,9 +874,11 @@ p .text {
 	padding: 12px 154px;
 	outline: none;
 	margin: 15px 20px;
-	font-size: 17px;
+	font-size: 18px;
 	border-radius: 4px;
 	border: none;
+	font-family: 'Arial';
+	font-weight: bold;
 }
 
 .contact input[type="submit"]:hover {
@@ -867,8 +890,9 @@ p .text {
 }
 
 .contact .h-sign {
+	margin-top: 15px;
 	color: #fff;
-	font-family: 'Arial';
+	font-family: 'Android KG', 'Arial';
 	text-align: center;
 }
 
