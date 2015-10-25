@@ -151,7 +151,7 @@ h6 {
 
 .content-wrapper > section {
     background-repeat: no-repeat;
-    min-width: 1200px;
+    min-width: 960px; 
 }
 
 .content-block {
@@ -410,8 +410,9 @@ p .text {
 	color: #d2d2d2;
 	position: absolute;
 }
-input[type="submit"] {
+.search-block input[type="submit"] {
 	position: absolute;
+	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
 	user-select: none;
@@ -424,28 +425,38 @@ input[type="submit"] {
 	border: none;
 }
 
-input[type="submit"]:hover {
+.search-block input[type="submit"]:hover {
 	background-color: #7acff9;
 }
 
-input[type="submit"]:active {
+.search-block input[type="submit"]:active {
 	background-color: #095175;
 }
 
 
-input[type="text"] {
+.search-block input[type="texts"] {
+	color: #3d3d3d;
+	font-family: 'Comic Sans MS';
+	font-weight: bold;
 	margin-left: 0 px;
 	padding: 15px 120px 15px 18px;
     border: 0 solid black;
     border-radius: 4px;
 }
 
-.info > * {
+.search-form * {
 	float: left;
+}
+
+.info  {
+	position: absolute;
+	margin-top: 50px;
 	color: #36aeea;
+	width: 300px;
 }
 
 .info > img {
+	float: left;
 	padding-top: 15px;
 	padding-right: 10px;
 	width: 16px;
@@ -712,9 +723,9 @@ input[type="text"] {
 }
 
 .contact {
-	background-image: url(../img/contact-block2.jpg);
-	background-size: 100% 1000px;
-	height: 1000px;
+	background-image: url(../img/contact-block3.jpg);
+	background-size: 100% 1200px;
+	height: 1200px;
 }
 
 .contact .tilda {
@@ -727,16 +738,17 @@ input[type="text"] {
 }
 
 .comments {
+	position: relative;
 	margin-top: 40px;
 }
 
 .comments .block1, .block2 {
 	background: white;
-	padding: 20px;
+	padding: 24px;
 	padding-bottom: 0px;
 	border-radius: 10px;
 	float: left;
-	width: 42%;
+	width: 43%;
 }
 
 .comments .block1 {
@@ -805,7 +817,68 @@ input[type="text"] {
 	position: relative;
 }
 
+.contact .sign-up {
+	background: url(../img/sign-up.jpg) no-repeat;
+	position: absolute;
+	border-radius: 3px;
+	opacity: 0.8;
+	margin-top: 350px;
+	margin-left: 300px;
+	width: 400px;
+	height: 380px;
+}
 
+.contact .sign-up:hover {
+	opacity: 1;
+}
+
+.contact input[type="text"] {
+	font-family: 'Comic Sans MS';
+	font-weight: bold;
+	color: #3d3d3d;
+	font-size: 17px;
+	margin-left: 20px;
+	margin-top: 15px;
+	padding: 15px 100px 15px 18px;
+    border: 0 solid black;
+    border-radius: 4px;
+}
+
+.contact input[type="submit"] {
+	/*color: #099ffe;*/
+	color: #fff;
+	background: #0068ab;
+	text-decoration: none;
+	user-select: none;
+	padding: 12px 154px;
+	outline: none;
+	margin: 15px 20px;
+	font-size: 17px;
+	border-radius: 4px;
+	border: none;
+}
+
+.contact input[type="submit"]:hover {
+	background-color: #02588f;
+}
+
+.contact input[type="submit"]:active {
+	background-color: #002740;
+}
+
+.contact .h-sign {
+	color: #fff;
+	font-family: 'Arial';
+	text-align: center;
+}
+
+.contact .text2 {
+	color: #e2f1fb;
+	font-family: 'Comic Sans MS';
+	text-align: center;
+	padding: 0px;
+	margin-top: 0;
+}
 
 .footer {
 	margin-top: -50px;
