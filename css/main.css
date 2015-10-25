@@ -576,6 +576,11 @@ p .text {
 	height: 350px;
 	border-radius: 8px;
 	background-position: top;
+	opacity: 0.8;
+}
+
+.bars *:hover {
+	opacity: 1;
 }
 
 .bars > .bar2, .bar3, .bar4, .bar5 {
@@ -631,9 +636,13 @@ p .text {
 	padding-left: 50px;
 	color: white;
 	background-color: black;
-	opacity: 0.7;
+	opacity: 0.6;
 	height: 7%;
 	border-radius: 2px;
+}
+
+.bars .top:hover {
+	opacity: 1;
 }
 
 .bars .middle {
@@ -645,6 +654,10 @@ p .text {
 	background-color: black;
 	opacity: 0.6;
 	border-radius: 3px;
+}
+
+.bars .bottom:hover {
+	opacity: 1;
 }
 
 .gallery {
