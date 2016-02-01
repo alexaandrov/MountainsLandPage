@@ -3,6 +3,7 @@ body {
 	margin: 0 auto;
 	background-color: #eee9ee;
 	height: 100%;
+	font-family: 'Lobster', cursive;
 }
 
 
@@ -18,6 +19,7 @@ body {
 
 a {
 	text-decoration: none;
+	color: white;
 }
 
 img {
@@ -66,8 +68,13 @@ h6 {
 	font-weight: normal;
 }
 
+input[type="submit"] {
+	cursor: pointer;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
 .subtext {
-	font-family: sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 15px;
 	color: #848484;
 }
@@ -109,10 +116,9 @@ h6 {
 .header {
 	float: left;
 	width: 100%;
-	padding: 0px;
-	margin: 0 auto;
-	margin-bottom: -100px;
-	position: absolute;
+	
+	position: fixed;
+	z-index: 101;
 }
 
 .header-logo a {
@@ -130,7 +136,11 @@ h6 {
 .header-logo  img {
 	padding-bottom: 15px;
 	padding-right: 30px;
-	
+	opacity: 0.7;
+}
+
+.header-logo  img:hover {
+	opacity: 1;
 }
 
 .header > .header-inner {
@@ -161,7 +171,7 @@ h6 {
 	padding: 30px 10px;
 	color: #737373;
 	font-weight: bold;
-	font-family: 'Comic Sans MS';
+	/*font-family: 'Comic Sans MS';*/
 	font-size: 13px;
 	display: table-cell;
 	-moz-transition: all 0.3s ease-out;
@@ -171,6 +181,7 @@ h6 {
 
 .header-inner .menu > a:hover {
 	background: #ababab;
+	color: white;
 	border-radius: 3px;
 }
 
@@ -183,7 +194,7 @@ h6 {
 	margin-top: -65px;
 	border-radius: 4px;
 	color: #37bcff;
-	font-family: Arial;
+	/*font-family: Arial;*/
 	opacity: 0.7;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -284,7 +295,7 @@ h6 {
 	border-radius: 3px;
 	margin: 330px 30px;
 	font-size: 20px;
-	font-family: 'Android KG', Arial;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .top-photo a.button:hover {
@@ -310,9 +321,9 @@ h6 {
 }
 
 .about .text {
-	font-family: sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	color: #5a5a5a;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 .about > a.button {
@@ -327,7 +338,7 @@ h6 {
 	margin: 150px 0px;
 	font-size: 15px;
 	font-weight: bold;
-	font-family: Arial;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .about a.button:hover {
@@ -373,6 +384,7 @@ p .text {
 	margin: 0 20px;
 	color: white;
 	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .jr-menu > .m2, .m4, .m6 {
@@ -450,6 +462,7 @@ p .text {
 
 .search-block .text {
 	width: 600px;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -584,7 +597,7 @@ p .text {
 	margin-top: 5px;
 	color: #848484;
 	font-size: 15px;
-	font-family: Arial;
+	font-family: 'Josefin Sans', sans-serif, Arial;
 }
 .hw-menu {
 	text-align: center;
@@ -884,8 +897,8 @@ p .text {
 
 .comments .text {
 	color: #777777;
-	font-family: 'Comic Sans MS';
-	font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
 }
 
 .comments .lower > ul { 
@@ -911,7 +924,7 @@ p .text {
 	margin-top: 4px;
 	margin-left: -15px;
 	padding: 0px;
-	font-family: 'Arial';
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 15px;
 	color: #7bcaf2;
 }
@@ -982,7 +995,6 @@ p .text {
 	font-size: 18px;
 	border-radius: 4px;
 	border: none;
-	font-family: 'Arial';
 	font-weight: bold;
 	-moz-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
@@ -1006,10 +1018,11 @@ p .text {
 
 .contacts .text2 {
 	color: #e2f1fb;
-	font-family: 'Comic Sans MS';
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
 	text-align: center;
 	padding: 0px;
-	margin-top: 0;
+	margin-top: 10px;
 }
 
 .footer {
